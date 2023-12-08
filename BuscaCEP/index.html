@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BuscaCep</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon-16x16.png"/>
+</head>
+<body>
+    <main>
+        <div>
+        <h2>Busca CEP</h2>
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" placeholder="Insira algum CEP">
+        <label for="logradouro">Endereço</label>
+        <input type="text" id="endereco" readonly>
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" readonly>
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" readonly>
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" readonly>
+        <input type="submit" onclick="clicarBotao()" class ="btn1" id="submit" value="Procurar">
+        <input type="submit" onclick="limparDados()" class="btn2" id="submit" value="Redefinir">
+
+    </div>
+    </main>
+
+    <script src="ap.js"></script>
+
+</body>
+</html>
